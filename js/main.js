@@ -78,7 +78,7 @@ function reset() {
  */
 function comparer() {
   if (scoreOrdi == 3) {
-
+document.getElementById("back").style.backgroundImage = "url('img/pailette2.gif')";
     alert(pseudo1 + " va faire sa presentation !");
     scoreJoueur = 0;
     scoreOrdi = 0;
