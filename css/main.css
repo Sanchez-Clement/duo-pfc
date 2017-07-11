@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+}
+
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@page accueil@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+#back {
+  background-color: rgb(143, 203, 193);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+#back h1 {
+  font-size: 28px;
+  margin: 0;
+  color: rgb(231, 104, 61);
+  text-shadow: white 0px 1px 0.5px;
+  font-family: 'Lobster', cursive;
+  padding: 30Px;
+}
+
+
+/*h1 {
+
+  font-size: 30px;
+  text-align: center;
+width: auto;
+margin: auto;
+
+
+}*/
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  font-family: 'Lobster', cursive;
+}
+
+button {
+  color: white;
+  background-color: rgb(243, 166, 74);
+  border: none;
+  border-radius: 20px;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#game {
+  width: 100%;
+}
+
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@page jeu@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+#choiceordi {
+  margin: 0;
+  padding: 0;
+}
+
+#jeu {
+  display: none;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#jeu .utilisateur, #jeu .joueur2 {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#jeu .utilisateur img, #jeu .joueur2 img {
+  padding: 0;
+}
+
+#score {
+  color: black;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.left {
+  position: relative;
+}
+
+#versus {
+  display: none;
+  font-family: 'Lobster', cursive;
+  color: rgb(243, 166, 74);
+  text-shadow: white 0px 1px 0.5px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+#versus p {
+  margin: auto;
+}
+
+#myCarousel {
+  padding: 0;
+}
+
+@media (min-width: 600px) {
+  #game {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1030px) {
+  #game {
+    width: 40%;
+  }
+  #back h1 {
+    font-size: 30px;
+    padding: 20Px;
+  }
+  label {
+    font-size: 20px;
+  }
+}
