@@ -77,7 +77,7 @@ function reset() {
  * @return {type}  no return
  */
 function comparer() {
-  if (scoreOrdi == 3) {
+  if (scoreOrdi == 2) {
 document.getElementById("back").style.backgroundImage = "url('img/pailette2.gif')";
     alert(pseudo1 + " va faire sa presentation !");
     scoreJoueur = 0;
@@ -92,7 +92,7 @@ document.getElementById("back").style.backgroundImage = "url('img/pailette2.gif'
 
   // si le joueur gagnele jeu
 
-  if (scoreJoueur == 3) {
+  if (scoreJoueur == 2) {
 document.getElementById("back").style.backgroundImage = "url('img/pailette2.gif')";
     alert(pseudo2 + " va faire sa presentation !");
     scoreJoueur = 0;
